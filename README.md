@@ -1,2 +1,4 @@
 # studioliminal
-Незалежна українська студія мальописів.  Створюємо історії про людей, вибір, таємниці та невидимі межі між ними.
+Independent Ukrainian comic studio.
+
+Creating stories about people, choices, secrets and the invisible borders between them.
