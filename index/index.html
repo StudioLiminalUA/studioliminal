@@ -7,33 +7,54 @@
 <style>
 
 body{
-font-family: Arial, sans-serif;
-background:#f5f5f5;
-max-width:1000px;
-margin:auto;
-padding:40px;
+    font-family:Arial,sans-serif;
+    background:#f5f5f5;
+    margin:0;
+    padding:0;
+}
+
+header{
+    background:white;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
 
 h1{
-font-size:48px;
-margin-bottom:10px;
+    margin:0;
 }
 
-.hero{
-background:white;
-padding:40px;
-border-radius:15px;
-box-shadow:0 0 10px rgba(0,0,0,0.1);
+.subtitle{
+    color:#666;
+    margin-top:10px;
+}
+
+.container{
+    max-width:1000px;
+    margin:auto;
+    padding:40px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    margin-bottom:20px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
 }
 
 .button{
-display:inline-block;
-padding:12px 24px;
-background:black;
-color:white;
-text-decoration:none;
-border-radius:8px;
-margin-top:20px;
+    display:inline-block;
+    margin:10px;
+    padding:12px 20px;
+    background:#333;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+.button:hover{
+    background:#555;
 }
 
 </style>
@@ -42,21 +63,39 @@ margin-top:20px;
 
 <body>
 
-<div class="hero">
-
+<header>
 <h1>Studio Liminal</h1>
 
-<p>
-Незалежна українська студія мальописів.
+<p class="subtitle">
+Незалежна українська студія мальописів
 </p>
+</header>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Поки нас ніхто не бачить</h2>
 
 <p>
-Створюємо історії про людей, вибір, таємниці та невидимі межі між ними.
+Історія про студентів, викладачів, секрети,
+вибір та невидимі межі між людьми.
 </p>
 
-<a class="button" href="#">
-Читати комікс
-</a>
+<a class="button" href="../characters.html">Герої</a>
+
+</div>
+
+<div class="card">
+
+<h2>Про студію</h2>
+
+<p>
+Studio Liminal створює авторські українські
+мальописи та візуальні історії.
+</p>
+
+</div>
 
 </div>
 
