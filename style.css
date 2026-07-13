@@ -45,18 +45,19 @@ header{
 }
 
 .hero{
-    height:100vh;
+    min-height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
     text-align:center;
 
     background:
-    linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.75)),
-    url("../images/cover.jpg");
+    linear-gradient(rgba(0,0,0,.45), rgba(0,0,0,.60)),
+    url("../images/hero1.jpg.png");
 
     background-size:cover;
     background-position:center;
+    background-repeat:no-repeat;
 }
 
 .hero-content{
