@@ -206,3 +206,18 @@ header{
         display:none;
     }
 }
+@media (max-width:768px){
+
+    .hero{
+        width:100%;
+        min-height:100svh;
+        padding:120px 24px 54px;
+        box-sizing:border-box;
+    }
+
+    .hero-content{
+        width:100%;
+        max-width:none;
+    }
+
+}
