@@ -27,12 +27,20 @@ header{
     height:70px;
 }
 .logo a{
-    color:#f4f1ea;
+    color:#ffffff;
     text-decoration:none;
-    font-family:Georgia, "Times New Roman", serif;
+    font-family:Arial, sans-serif;
     font-size:18px;
-    letter-spacing:4px;
+    font-weight:600;
+    letter-spacing:1px;
     white-space:nowrap;
+}
+.logo a:visited{
+    color:#ffffff;
+}
+
+.logo a:hover{
+    color:#c9a46b;
 }
 .menu{
     display:flex;
