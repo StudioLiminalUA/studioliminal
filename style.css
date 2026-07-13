@@ -166,3 +166,43 @@ header{
     }
 }
 }
+@media (max-width:768px){
+
+    .hero{
+        min-height:100svh;
+
+        background:
+            linear-gradient(
+                rgba(0,0,0,.18),
+                rgba(0,0,0,.48)
+            ),
+            url("images/hero-01-marko-leo-mobile.png");
+
+        background-size:cover;
+        background-position:center;
+        background-repeat:no-repeat;
+
+        padding:120px 24px 54px;
+        align-items:flex-end;
+    }
+
+    .hero-content{
+        width:100%;
+        max-width:420px;
+        text-align:left;
+    }
+
+    .hero-content h1{
+        font-size:42px;
+        line-height:1.02;
+    }
+
+    .hero-content p{
+        font-size:15px;
+        line-height:1.5;
+    }
+
+    .hero-content p br{
+        display:none;
+    }
+}
