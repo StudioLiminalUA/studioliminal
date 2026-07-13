@@ -72,7 +72,7 @@ header{
             rgba(0,0,0,.12) 68%,
             rgba(0,0,0,.28) 100%
         ),
-        url("images/hero1.jpg.png");
+      url("../images/hero-01-marko-leo.png");
 
     background-size:cover;
     background-position:center;
