@@ -209,6 +209,11 @@ header{
 .menu{
     position:fixed;
     inset:0;
+    width:100vw;
+height:100dvh;
+min-height:100dvh;
+max-height:none;
+z-index:9999;
     margin:0;
     padding:120px 28px 40px;
     box-sizing:border-box;
