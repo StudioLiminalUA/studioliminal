@@ -275,6 +275,7 @@ header{
         max-width:420px;
         margin:0;
         text-align:left;
+        padding-top:40px;
     }
 
     .hero-content h1{
