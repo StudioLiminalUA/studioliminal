@@ -214,12 +214,14 @@ header{
     box-sizing:border-box;
 
     list-style:none;
-    background:rgba(5,5,5,.98);
+    background:rgba(5,5,5,.995);
 
     display:flex;
     flex-direction:column;
     align-items:flex-start;
     gap:28px;
+    height:100svh;
+overflow-y:auto;
 
     opacity:0;
     visibility:hidden;
