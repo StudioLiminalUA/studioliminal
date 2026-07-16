@@ -183,7 +183,7 @@ header{
     gap:6px;
 
     position:relative;
-    z-index:1002;
+    z-index:10000;
 }
 
 .menu-toggle span{
