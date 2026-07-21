@@ -1,81 +1,172 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-<meta charset="UTF-8">
- 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Розділ 1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Розділ 1 — Поки нас ніхто не бачить</title>
 
-<style>
-body{
-    font-family:Arial,sans-serif;
-    background:#f5f5f5;
-    margin:0;
-    padding:16px;
-}
+    <style>
+        *{
+            box-sizing:border-box;
+        }
 
-.container{
-    max-width:900px;
-    margin:auto;
-    background:white;
-    padding:24px;
-    border-radius:16px;
-}
+        html{
+            scroll-behavior:smooth;
+        }
 
-@media (max-width:600px){
-    body{
-        padding:12px;
-    }
+        body{
+            margin:0;
+            background:#050505;
+            color:#f4f1ea;
+            font-family:Arial, sans-serif;
+        }
 
-    .container{
-        padding:20px;
-        border-radius:14px;
-    }
+        .chapter-header{
+            padding:40px 20px 34px;
+            text-align:center;
+            background:#050505;
+        }
 
-    h1{
-        font-size:24px;
-    }
+        .chapter-header a{
+            color:#c9a778;
+            text-decoration:none;
+            font-size:14px;
+        }
 
-    h2{
-        font-size:18px;
-    }
+        .chapter-header p{
+            margin:24px 0 8px;
+            font-size:12px;
+            letter-spacing:3px;
+            text-transform:uppercase;
+            color:rgba(244,241,234,.65);
+        }
 
-    p{
-        font-size:14px;
-        line-height:1.5;
-    }
-}
+        .chapter-header h1{
+            margin:0;
+            font-family:Georgia, "Times New Roman", serif;
+            font-size:48px;
+            font-weight:400;
+        }
 
-.container{
-    max-width:900px;
-    margin:auto;
-    background:white;
-    padding:40px;
-    border-radius:20px;
-}
+        .comic-pages{
+            width:min(100%, 1100px);
+            margin:0 auto;
+            background:#050505;
+        }
 
-img{
-    width:100%;
-    margin-bottom:20px;
-    border-radius:10px;
-}
-</style>
+        .comic-pages img{
+            display:block;
+            width:100%;
+            height:auto;
+            margin:0;
+        }
 
+        .chapter-footer{
+            width:min(100%, 1100px);
+            margin:0 auto;
+            padding:45px 24px 70px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            gap:20px;
+        }
+
+        .chapter-footer a,
+        .chapter-footer span{
+            color:#f4f1ea;
+            text-decoration:none;
+            font-size:15px;
+        }
+
+        .chapter-footer a:hover{
+            color:#c9a778;
+        }
+
+        @media screen and (max-width:768px){
+            .chapter-header{
+                padding:28px 20px 26px;
+            }
+
+            .chapter-header p{
+                margin-top:20px;
+                font-size:10px;
+                letter-spacing:2px;
+            }
+
+            .chapter-header h1{
+                font-size:36px;
+            }
+
+            .comic-pages{
+                width:100%;
+            }
+
+            .chapter-footer{
+                padding:35px 20px 50px;
+                flex-direction:column;
+                align-items:flex-start;
+            }
+        }
+    </style>
 </head>
+
 <body>
 
-<div class="container">
+    <header class="chapter-header">
+        <a href="comic.html">← Усі розділи</a>
 
-<h1>Поки нас ніхто не бачить</h1>
+        <p>Поки нас ніхто не бачить</p>
+        <h1>Розділ 1</h1>
+    </header>
 
-<h2>Розділ 1</h2>
+    <main class="comic-pages">
 
-<p>
-Тут будуть сторінки мальопису.
-</p>
+        <img src="images/chapters/chapter-01/001.png" alt="Розділ 1 — сторінка 1" loading="eager">
+        <img src="images/chapters/chapter-01/002.png" alt="Розділ 1 — сторінка 2" loading="lazy">
+        <img src="images/chapters/chapter-01/003.png" alt="Розділ 1 — сторінка 3" loading="lazy">
+        <img src="images/chapters/chapter-01/004.png" alt="Розділ 1 — сторінка 4" loading="lazy">
+        <img src="images/chapters/chapter-01/005.png" alt="Розділ 1 — сторінка 5" loading="lazy">
+        <img src="images/chapters/chapter-01/006.png" alt="Розділ 1 — сторінка 6" loading="lazy">
+        <img src="images/chapters/chapter-01/007.png" alt="Розділ 1 — сторінка 7" loading="lazy">
+        <img src="images/chapters/chapter-01/008.png" alt="Розділ 1 — сторінка 8" loading="lazy">
+        <img src="images/chapters/chapter-01/009.png" alt="Розділ 1 — сторінка 9" loading="lazy">
+        <img src="images/chapters/chapter-01/010.png" alt="Розділ 1 — сторінка 10" loading="lazy">
 
-</div>
+        <img src="images/chapters/chapter-01/011.png" alt="Розділ 1 — сторінка 11" loading="lazy">
+        <img src="images/chapters/chapter-01/012.png" alt="Розділ 1 — сторінка 12" loading="lazy">
+        <img src="images/chapters/chapter-01/013.png" alt="Розділ 1 — сторінка 13" loading="lazy">
+        <img src="images/chapters/chapter-01/014.png" alt="Розділ 1 — сторінка 14" loading="lazy">
+        <img src="images/chapters/chapter-01/015.png" alt="Розділ 1 — сторінка 15" loading="lazy">
+        <img src="images/chapters/chapter-01/016.png" alt="Розділ 1 — сторінка 16" loading="lazy">
+        <img src="images/chapters/chapter-01/017.png" alt="Розділ 1 — сторінка 17" loading="lazy">
+        <img src="images/chapters/chapter-01/018.png" alt="Розділ 1 — сторінка 18" loading="lazy">
+        <img src="images/chapters/chapter-01/019.png" alt="Розділ 1 — сторінка 19" loading="lazy">
+        <img src="images/chapters/chapter-01/020.png" alt="Розділ 1 — сторінка 20" loading="lazy">
+
+        <img src="images/chapters/chapter-01/021.png" alt="Розділ 1 — сторінка 21" loading="lazy">
+        <img src="images/chapters/chapter-01/022.png" alt="Розділ 1 — сторінка 22" loading="lazy">
+        <img src="images/chapters/chapter-01/023.png" alt="Розділ 1 — сторінка 23" loading="lazy">
+        <img src="images/chapters/chapter-01/024.png" alt="Розділ 1 — сторінка 24" loading="lazy">
+        <img src="images/chapters/chapter-01/025.png" alt="Розділ 1 — сторінка 25" loading="lazy">
+        <img src="images/chapters/chapter-01/026.png" alt="Розділ 1 — сторінка 26" loading="lazy">
+        <img src="images/chapters/chapter-01/027.png" alt="Розділ 1 — сторінка 27" loading="lazy">
+        <img src="images/chapters/chapter-01/028.png" alt="Розділ 1 — сторінка 28" loading="lazy">
+        <img src="images/chapters/chapter-01/029.png" alt="Розділ 1 — сторінка 29" loading="lazy">
+        <img src="images/chapters/chapter-01/030.png" alt="Розділ 1 — сторінка 30" loading="lazy">
+
+        <img src="images/chapters/chapter-01/031.png" alt="Розділ 1 — сторінка 31" loading="lazy">
+        <img src="images/chapters/chapter-01/032.png" alt="Розділ 1 — сторінка 32" loading="lazy">
+        <img src="images/chapters/chapter-01/033.png" alt="Розділ 1 — сторінка 33" loading="lazy">
+        <img src="images/chapters/chapter-01/034.png" alt="Розділ 1 — сторінка 34" loading="lazy">
+        <img src="images/chapters/chapter-01/035.png" alt="Розділ 1 — сторінка 35" loading="lazy">
+
+    </main>
+
+    <footer class="chapter-footer">
+        <a href="comic.html">← Усі розділи</a>
+        <span>Продовження незабаром</span>
+    </footer>
 
 </body>
 </html>
